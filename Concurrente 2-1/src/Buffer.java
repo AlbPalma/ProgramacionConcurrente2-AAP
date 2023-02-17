@@ -5,7 +5,7 @@ import java.util.concurrent.Semaphore;
 public class Buffer {
 
 	//private static Queue<Integer> store = new LinkedList<Integer>();
-	private static int store = 100000;
+	private static int store = 1000;
 	public static final int bSize= 5;
 	
 	private static Semaphore sNoVacío= new Semaphore(2,true);
