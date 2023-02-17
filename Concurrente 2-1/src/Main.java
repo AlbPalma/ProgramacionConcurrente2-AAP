@@ -5,6 +5,7 @@ public class Main {
 		System.out.println("Programa iniciado." );
 		new Proceso(1);
 		new Proceso(2);
+		new Proceso(3);
 
 	}
 
